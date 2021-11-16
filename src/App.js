@@ -4,12 +4,12 @@ import SingleCard from './components/SingleCard';
 
 
 const cardImages = [
-  { "src": "/img/helmet-1.png", matched: false },
-  { "src": "/img/potion-1.png", matched: false }, 
-  { "src": "/img/ring-1.png", matched: false },
-  { "src": "/img/scroll-1.png", matched: false },
-  { "src": "/img/shield-1.png", matched: false },
-  { "src": "/img/sword-1.png", matched: false }
+  { "src": "/img/dali.jpg", matched: false },
+  { "src": "/img/oKeefe.jpg", matched: false }, 
+  { "src": "/img/bosch.jpg", matched: false },
+  { "src": "/img/goya.jpg", matched: false },
+  { "src": "/img/picasso.jpg", matched: false },
+  { "src": "/img/monet.jpg", matched: false }
 
 ]
 
@@ -89,6 +89,8 @@ useEffect(() => {
   return (
     <div className="App">
     <h1>Memory Match</h1> 
+    <hr/>
+    <h2> Famous Painters</h2>
     <button onClick={shuffleCards}>Start</button> 
 
     <div className="card-grid">
