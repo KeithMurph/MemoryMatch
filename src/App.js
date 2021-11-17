@@ -20,6 +20,11 @@ const [choiceOne, setChoiceOne] = useState(null)
 const [choiceTwo, setChoiceTwo] = useState(null)
 const [disabled, setDisabled] = useState(false)
 
+
+
+// 
+
+
 // shuffle
 
 const shuffleCards = () => {
@@ -90,7 +95,7 @@ useEffect(() => {
     <div className="App">
     <h1>Memory Match</h1> 
     <hr/>
-    <h2> Famous Painters</h2>
+    <h2>Famous Paintings</h2>
     <button onClick={shuffleCards}>Start</button> 
 
     <div className="card-grid">
