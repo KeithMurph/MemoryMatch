@@ -2,6 +2,8 @@
 
 React practice with State! Match corresponding tile in the fewest turns! 
 
+Deployed link: https://memorymatch-painters.herokuapp.com/
+
 -
 
 ![image](https://user-images.githubusercontent.com/85463607/142034379-35fa5ec6-7ef5-4efc-a248-66c674420a5b.png)
